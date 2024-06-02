@@ -3,32 +3,26 @@ package section_one;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class SeleniumApplication {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ChromeDriver driver = new ChromeDriver();
-        driver.get("https://practice.automationtesting.in/product/selenium-ruby/");
-        System.out.println(driver.getCurrentUrl());
+        driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 
-        WebElement element = driver.findElement(By.cssSelector("input.qty"));
-        element.clear();
-        element.sendKeys("2");
+        WebElement dropdownElement = driver.findElement(By.cssSelector("select#ctl00_mainContent_DropDownListCurrency"));
 
-        WebElement elementByClassName = driver.findElement(By.className("single_add_to_cart_button"));
-        elementByClassName.click();
+        Select dropdown = new Select(dropdownElement);
+        dropdown.selectByIndex(3);
+        System.out.println(dropdown.getFirstSelectedOption().getText());
 
+        dropdown.selectByValue("INR");
+        System.out.println(dropdown.getFirstSelectedOption().getText());
 
-//        WebElement viewBasket = driver.findElement(By.cssSelector(".wc-forward"));
-//        viewBasket.click();
+        dropdown.selectByVisibleText("AED");
+        System.out.println(dropdown.getFirstSelectedOption().getText());
 
-        WebElement reviewAnchor = driver.findElement(By.xpath("//a[@href='#tab-reviews']"));
-        reviewAnchor.click();
-
-        // Building custom xpath or css selector
-        WebElement descriptionAnchor = driver.findElement(By.xpath("//a[@href='#tab-description']"));
-        descriptionAnchor.click();
-
-
-
+        Thread.sleep(2000);
+        driver.quit();
     }
 }
