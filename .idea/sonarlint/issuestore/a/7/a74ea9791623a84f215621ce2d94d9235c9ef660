@@ -1,7 +1,5 @@
 
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8Χ§Ώύ1
-{
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€8τ§Ώύ1
-r	java:S106"+Replace this use of System.out by a logger.(‡Γªόÿÿÿÿ8ϊ€¦Ώύ1J$042ee8b7-2aa7-40ab-bf21-d672a521a01a
-
-java:S1128"BRemove this unused import 'org.openqa.selenium.support.ui.Select'.(΄—βΫψÿÿÿÿ8Λ£Ώύ1J$a30742ae-05f5-4413-a92b-097a476f2a21
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8€€Έΐύ1J$4c0fe588-5ba5-4a89-a170-642fdd5f65f6
+΅
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€8 €Έΐύ1J$eddaa99b-a966-4ba1-b238-82f0ee4191a4
+r	java:S106"+Replace this use of System.out by a logger.(‡Γªόÿÿÿÿ8¨€Έΐύ1J$850aba75-8ef8-487b-a251-04725b090058
