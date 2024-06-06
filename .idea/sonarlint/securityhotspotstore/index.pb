@@ -11,3 +11,9 @@ l
 .src/main/java/section_one/Assignment_Once.java,1\5\15e05add83bd54cea794981ae3f469d5173083b7
 c
 3src/main/java/section_one/ECommerceApplication.java,2\4\245cb15a584a9fb1dad5d8017b1d7b7673c7fb27
+b
+2src/main/java/section_2/SynchonizeApplication.java,4\8\48fa3b0ad73b8334b186c398d93b2bf7184bd10d
+b
+2src/main/java/section_three/ActionApplication.java,4\e\4e66b52f2f98e9bedde60af71ee14b1b2dc78d8d
+i
+9src/main/java/section_three/WindowHandlesApplication.java,6\3\63159d2a7b34f989e2534eb9d50ee24b8593baf6
