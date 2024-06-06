@@ -17,3 +17,5 @@ b
 2src/main/java/section_three/ActionApplication.java,4\e\4e66b52f2f98e9bedde60af71ee14b1b2dc78d8d
 i
 9src/main/java/section_three/WindowHandlesApplication.java,6\3\63159d2a7b34f989e2534eb9d50ee24b8593baf6
+h
+8src/main/java/section_three/AssignmentWindowHandles.java,1\1\11fa4f23725088b3927d49d696caf15fa80577bd
