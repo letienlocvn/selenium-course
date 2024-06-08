@@ -19,3 +19,7 @@ i
 9src/main/java/section_three/WindowHandlesApplication.java,6\3\63159d2a7b34f989e2534eb9d50ee24b8593baf6
 h
 8src/main/java/section_three/AssignmentWindowHandles.java,1\1\11fa4f23725088b3927d49d696caf15fa80577bd
+S
+#src/main/java/example/BookItem.java,6\3\63ed1b2472a2f4bdea15a22a8015d20233ca42d8
+X
+(src/main/java/example/BookHierarchy.java,b\d\bd3a03a07b087cc74aab8bdfa37048b7a998fee8
